@@ -21,6 +21,7 @@ WebElement element;
 		super(driver);
 	}
 	
+	
 public static Logger log= Logger.getLogger(HomePage.class);
 
 /*Variables*/
