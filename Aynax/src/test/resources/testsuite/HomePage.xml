@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regresion test suite for 5.8ud3" parallel="tests" thread.count="2">
+        <test name="Smoke Test" preserve-order="true">
+            <parameter name="browserType" value="FF"/>
+            <classes>
+                <class name="com.itc.test.HomePageTest"/>
+                <methods>
+                    <include name="verifySiteLogoPage"/>
+                    <include name="verifyHomePage"/>
+                </methods>
+            </classes>
+        </test>
+        
+        <test name="Smoke Test1" preserve-order="true">
+            <parameter name="browserType" value="GC"/>
+            <classes>
+                <class name="com.itc.test.LoginPageTest"/>
+            </classes>
+        </test>
+        
+    
+</suite>

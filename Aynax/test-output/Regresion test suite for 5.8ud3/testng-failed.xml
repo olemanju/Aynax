@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regresion test suite for 5.8ud3]" parallel="tests">
+  <parameter name="browserType" value="GC"/>
+  <test name="Smoke Test1(failed)" parallel="tests">
+    <parameter name="browserType" value="GC"/>
+    <classes>
+      <class name="com.itc.test.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyLoginPage"/>
+        </methods>
+      </class> <!-- com.itc.test.LoginPageTest -->
+      <class name="com.itc.test.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.itc.test.HomePageTest -->
+    </classes>
+  </test> <!-- Smoke Test1(failed) -->
+</suite> <!-- Failed suite [Regresion test suite for 5.8ud3] -->

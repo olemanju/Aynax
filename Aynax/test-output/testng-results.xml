@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[08/27/2016 22:26:50: - Finding the Element [By.linkText: Login]]]>
+    </line>
+    <line>
+      <![CDATA[08/27/2016 22:26:56: - Finding the Element [By.xpath: //img[@alt='Aynax.com Logo']]]]>
+    </line>
+    <line>
+      <![CDATA[08/27/2016 22:26:56: - Finding the Element [By.linkText: Login]]]>
+    </line>
+    <line>
+      <![CDATA[08/27/2016 22:26:56: - Set the Webelement [By.linkText: Login]]]>
+    </line>
+    <line>
+      <![CDATA[08/27/2016 22:26:56: - Set the Webelement [By.linkText: Login]]]>
+    </line>
+    <line>
+      <![CDATA[08/27/2016 22:27:04: - Explicit wait for: [3000]Seconds ]]>
+    </line>
+    <line>
+      <![CDATA[08/27/2016 22:27:04: - Finding the Element [By.linkText: Login]]]>
+    </line>
+    <line>
+      <![CDATA[08/27/2016 22:27:04: - Finding the Element [By.xpath: //img[@alt='Aynax.com Logo']]]]>
+    </line>
+  </reporter-output>
+  <suite name="Regresion test suite for 5.8ud3" duration-ms="23794" started-at="2016-08-27T16:56:41Z" finished-at="2016-08-27T16:57:04Z">
+    <groups>
+      <group name="regression">
+        <method signature="HomePageTest.verifyHomePage()[pri:0, instance:com.itc.test.HomePageTest@4411d970]" name="verifyHomePage" class="com.itc.test.HomePageTest"/>
+        <method signature="HomePageTest.verifySiteLogoPage()[pri:0, instance:com.itc.test.HomePageTest@4411d970]" name="verifySiteLogoPage" class="com.itc.test.HomePageTest"/>
+        <method signature="LoginPageTest.verifyLoginPage()[pri:0, instance:com.itc.test.LoginPageTest@2ef9b8bc]" name="verifyLoginPage" class="com.itc.test.LoginPageTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Smoke Test1" duration-ms="11315" started-at="2016-08-27T16:56:41Z" finished-at="2016-08-27T16:56:52Z">
+      <class name="com.itc.test.LoginPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.itc.test.LoginPageTest@2ef9b8bc]" name="setup" is-config="true" duration-ms="9713" started-at="2016-08-27T22:26:41Z" finished-at="2016-08-27T22:26:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLoginPage()[pri:0, instance:com.itc.test.LoginPageTest@2ef9b8bc]" name="verifyLoginPage" duration-ms="153" started-at="2016-08-27T22:26:50Z" finished-at="2016-08-27T22:26:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[08/27/2016 22:26:50: - Finding the Element [By.linkText: Login]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.itc.test.LoginPageTest@2ef9b8bc]" name="tearDown" is-config="true" duration-ms="1428" started-at="2016-08-27T22:26:50Z" finished-at="2016-08-27T22:26:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.itc.test.LoginPageTest -->
+    </test> <!-- Smoke Test1 -->
+    <test name="Smoke Test" duration-ms="23794" started-at="2016-08-27T16:56:41Z" finished-at="2016-08-27T16:57:04Z">
+      <class name="com.itc.test.HomePageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.itc.test.HomePageTest@4411d970]" name="setup" is-config="true" duration-ms="14938" started-at="2016-08-27T22:26:41Z" finished-at="2016-08-27T22:26:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:com.itc.test.HomePageTest@4411d970]" name="verifyHomePage" duration-ms="8360" started-at="2016-08-27T22:26:56Z" finished-at="2016-08-27T22:27:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[08/27/2016 22:26:56: - Finding the Element [By.xpath: //img[@alt='Aynax.com Logo']]]]>
+            </line>
+            <line>
+              <![CDATA[08/27/2016 22:26:56: - Finding the Element [By.linkText: Login]]]>
+            </line>
+            <line>
+              <![CDATA[08/27/2016 22:26:56: - Set the Webelement [By.linkText: Login]]]>
+            </line>
+            <line>
+              <![CDATA[08/27/2016 22:26:56: - Set the Webelement [By.linkText: Login]]]>
+            </line>
+            <line>
+              <![CDATA[08/27/2016 22:27:04: - Explicit wait for: [3000]Seconds ]]>
+            </line>
+            <line>
+              <![CDATA[08/27/2016 22:27:04: - Finding the Element [By.linkText: Login]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="verifySiteLogoPage()[pri:0, instance:com.itc.test.HomePageTest@4411d970]" name="verifySiteLogoPage" duration-ms="19" started-at="2016-08-27T22:27:04Z" finished-at="2016-08-27T22:27:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[08/27/2016 22:27:04: - Finding the Element [By.xpath: //img[@alt='Aynax.com Logo']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySiteLogoPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.itc.test.HomePageTest@4411d970]" name="tearDown" is-config="true" duration-ms="468" started-at="2016-08-27T22:27:04Z" finished-at="2016-08-27T22:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.itc.test.HomePageTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Regresion test suite for 5.8ud3 -->
+</testng-results>
